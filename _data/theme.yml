@@ -15,6 +15,13 @@ home-title-y-padding: # Default is 8em
 home-banner-image-position: # Default is center
 
 ##########
+# ABOUT PAGE
+#
+# Featured image on About page - if left blank, CB will use image featured on the homepage
+# use either objectid, relative location, or full url to an image elsewhere
+about-featured-image: banner option (3)
+
+##########
 # ITEM PAGE
 #
 # see _data/metadata-config.csv to define the metadata fields that will display.
@@ -23,8 +30,8 @@ browse-buttons: true # true/false, adds previous/next arrows to item pages
 ##########
 # SUBJECTS PAGE
 #
-subjects-fields: subject # set the field to be featured in the cloud (if left blank, none will be generated)
-subjects-min: 1 # min size for subject cloud, too many terms = slow load time!
+subjects-fields: subject;material;set size;roll surfaces # set the field to be featured in the cloud (if left blank, none will be generated)
+subjects-min: 2 # min size for subject cloud, too many terms = slow load time!
 #subjects-stopwords: # set of subjects separated by ;, e.g. boxers;boxing
 
 ##########
@@ -51,16 +58,16 @@ map-cluster-radius: 25 # size of clusters, from ~ 10 to 80
 # TIMELINE PAGE
 #
 year-navigation: #"1900;1905;1910;1915;1920" # set years to appear in dropdown nav, leave blank to auto gen
-year-nav-increment: 5 # set increments when auto gen nav years
+year-nav-increment: # set increments when auto gen nav years
 
 ##########
 # DATA 
 #
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement"
+metadata-export-fields: "objectid,filename,title,description,source,subject,identifier,material,set size,roll surfaces,type,format,location,date"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "subject,creator,format"
+metadata-facets-fields: "subject,material,set size"
 
 ##########
 # ADVANCED OPTIONS
