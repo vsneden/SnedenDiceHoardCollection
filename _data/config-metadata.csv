@@ -1,10 +1,10 @@
 field,display_name,browse_link,external_link
 title,Title,
-date,Date Purchased,
+date,Date Purchased, true
 description,Description,
 subject,Primary Color Association(s),true
 identifier,Unique Identifier,,
-location,Location in Physical Collection
+location,Location in Physical Collection, true
 source, Purchase Source
 latitude,Latitude
 longitude,Longitude
