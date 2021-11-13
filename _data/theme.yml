@@ -8,7 +8,7 @@
 #
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo (ex. /assets/img/feature.jpg), or a full url to an image elsewhere
-featured-image: banner option (1)
+featured-image: coll055
 # optional: add extra padding around collection title for a larger image feature. 
 home-title-y-padding: # Default is 8em
 # optional: change position of background image, center, top, bottom
@@ -19,7 +19,7 @@ home-banner-image-position: # Default is center
 #
 # Featured image on About page - if left blank, CB will use image featured on the homepage
 # use either objectid, relative location, or full url to an image elsewhere
-about-featured-image: banner option (3)
+about-featured-image: coll056
 
 ##########
 # ITEM PAGE
