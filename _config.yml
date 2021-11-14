@@ -34,7 +34,7 @@ author: Tori Sneden
 #
 # Set the metadata for your collection (the name of the csv file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: dice-collection-metadata-2 
+metadata: dice-collection-metadata-4 
 
 ##########
 # GOOGLE SERVICES [optional!]
